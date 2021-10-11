@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration:none;
+}
+
+#container{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+/****************************************************/
+/* 헤더 영역 - 로고, 네비게이션, 오른쪽 상단 아이콘 */
+/****************************************************/
+header{
+    width: 100%;
+    height:70px;
+    background-color: rgb(255, 255, 255);
+}
+
+/*이미지 로고*/
+header>a>img{
+    float:left;
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+/*글자 로고*/
+#logo{
+    float:left;
+    width: 160px;    
+    height:70px;
+    line-height:70px;
+}
+
+#logo>a>h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight:700;
+    font-size:25px;
+    color:#222;
+}
+
+/*네비게이션*/
+nav{
+    float:left;
+    width:760px;
+    height:70px;
+}
+
+ul{
+    list-style:none;
+}
+
+#topMenu > li {
+    display: inline-block;
+    margin: 0 25px;   /*게시판 이름 사이의 간격*/
+    height: 70px;
+    line-height: 70px;  /*세로 중앙 정렬*/
+    color: rgb(0, 0, 0);  /*게시판 이름 글자 색 지정*/
+    font-family: "맑은 고딕", 돋움, tahoma;
+    font-size: 15px;
+    font-weight: bold;  /*글자 굵게*/
+    letter-spacing: -1px;
+}
+
+#topMenu > li:hover {
+    color:rgb(170, 217, 248);  /* 서브 메뉴 마우스 오버하면 색상 바뀜 */  
+}
+
+/*오른쪽 상단 이미지*/
+#sub>a>img{
+    display: inline-block;
+    margin: 0 2px;   /*게시판 이름 사이의 간격*/
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+
+/****************************************/
+/*   콘텐츠 영역 - 본문 (내정보 수정)   */
+/****************************************/
+#contents{
+    width:100%;
+    height:600px;
+}
+
+#contents>section{
+    margin: 10px 350px 8px 350px;
+    padding: 12px 0;
+    box-sizing: border-box;
+    border: 1px solid #EDEDED;
+    border-radius: 12px;
+}
+
+/*  내 정보   */
+.title {
+    padding: 12px 24px;
+    display: flex;
+}
+
+.title> h1 {
+    flex: auto;
+    line-height: 30px;
+    color: #292929;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.title> a.logout {
+    padding: 0 12px;
+    border-radius: 15px;
+    line-height: 30px;
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: rgb(170, 217, 248);
+}
+
+.profile {
+    margin: 0 24px 35px 24px;
+    position: relative;
+    padding-left: 72px;
+}
+
+.profile>img{
+    position: absolute;
+    left: 0;
+    border-radius: 18px;
+    width: 56px;
+    height: 56px;
+}
+
+.profile>h3{
+    line-height: 20px;
+    color: #292929;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/*   계정, 나의 활동   */
+#contents > section>h2 {
+    padding: 12px 24px;
+    line-height: 26px;
+    color: #292929;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.item{
+    padding: 12px 24px;
+    display: block;
+    line-height: 24px;
+    word-wrap: break-word;
+    color: #292929;
+    font-size: 16px;
+}
+
+
+/*****************/
+/*   푸터 영역   */
+/*****************/
+footer{
+    width:100%;
+    height:100px;
+    background-color: rgb(233, 233, 233);
+}
+
+.f_menu {
+    float: none;
+    text-align: center;
+    margin-left: 0;
+}
+
+.f_menu>ul{
+    list-style: none;
+}
+
+.f_menu>ul>li{
+    float:right;
+    margin-top:20px;
+    margin-right:40px;
+}
+
+.f_txt>p {
+    float:left;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #666;
+    line-height: 22px;
+    text-align: center;
+}

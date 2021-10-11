@@ -1,0 +1,40 @@
+
+  body {
+    background-color: none;
+  }
+  .frame {
+    height: 300px;
+    width: 200px;
+    background-color: #a0a0a0;
+  }
+
+  .bar {
+    background-color: #AAD9F8;
+  }
+
+  .imgs_right {
+    display:inline;
+    text-align: right;
+  }
+
+  img {
+    width: 20px;
+    height: 20px;
+  }
+
+
+/*
+  #bell #dots #x #back {
+    width: 20px;
+    height: 20px;
+  }
+
+  #dots {
+    width: 20px;
+    height: 20px;
+  }
+*/
+  #x {
+    width: 15px;
+    height: 15px;
+  }

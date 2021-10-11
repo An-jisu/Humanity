@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration:none;
+}
+
+#container{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+/****************************************************/
+/* 헤더 영역 - 로고, 네비게이션, 오른쪽 상단 아이콘 */
+/****************************************************/
+header{
+    width: 100%;
+    height:70px;
+    background-color: rgb(255, 255, 255);
+}
+
+/*이미지 로고*/
+header>a>img{
+    float:left;
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+/*글자 로고*/
+#logo{
+    float:left;
+    width: 160px;    
+    height:70px;
+    line-height:70px;
+}
+
+#logo>a>h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight:700;
+    font-size:25px;
+    color:#222;
+}
+
+/*네비게이션*/
+nav{
+    float:left;
+    width:760px;
+    height:70px;
+}
+
+ul{
+    list-style:none;
+}
+
+#topMenu > li {
+    display: inline-block;
+    margin: 0 25px;   /*게시판 이름 사이의 간격*/
+    height: 70px;
+    line-height: 70px;  /*세로 중앙 정렬*/
+    color: rgb(0, 0, 0);  /*게시판 이름 글자 색 지정*/
+    font-family: "맑은 고딕", 돋움, tahoma;
+    font-size: 15px;
+    font-weight: bold;  /*글자 굵게*/
+    letter-spacing: -1px;
+}
+
+#topMenu > li:hover {
+    color:rgb(170, 217, 248);  /* 서브 메뉴 마우스 오버하면 색상 바뀜 */  
+}
+
+/*오른쪽 상단 이미지*/
+#sub>a>img{
+    display: inline-block;
+    margin: 0 2px;   /*게시판 이름 사이의 간격*/
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+
+/****************************************/
+/*   콘텐츠 영역 - 본문 (내정보 수정)   */
+/****************************************/
+#contents{
+    width:100%;
+    height:600px;
+}
+
+#contents>section{
+    margin: 10px 350px 8px 350px;
+    padding: 12px 0;
+    box-sizing: border-box;
+    border: 1px solid #EDEDED;
+    border-radius: 12px;
+}
+
+#contents>section>h1 {
+    flex: auto;
+    line-height: 30px;
+    color: #292929;
+    font-size: 19px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.label{
+    display: flex;
+    padding: 10px 15px 5px;
+}
+
+label{
+    flex: auto;
+    line-height: 20px;
+    color: #737373;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.label>p{
+    flex-shrink: 0;
+    line-height: 20px;
+    color: #A6A6A6;
+    font-size: 12px;
+}
+
+input{
+    display: block;
+    text-align: start;
+    margin:4px 15px;
+    box-sizing: border-box;
+    padding: 8px;
+    border: 1px solid #EDEDED;
+    border-radius: 12px;
+    width: 450px;
+    height: 40px;
+    color: #292929;
+    font-size: 16px;
+    background-color: #F9F9F9;
+}
+
+.input{
+    margin-top: 24px;
+}
+
+.rules>p{
+    line-height: 18px;
+    color: #737373;
+    margin-right: 15px;
+}
+
+.rules{
+    margin-top: 24px;
+    line-height: 18px;
+    color: #737373;
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+strong{
+    font-weight: bold;
+}
+
+.caution{
+    color: #C62917;
+}
+
+input[type=submit]{
+    margin-top: 24px;
+    border-radius: 12px;
+    width: 435px;
+    height: 40px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    text-align:center;
+    background-color: rgb(170, 217, 248);
+}
+
+/*****************/
+/*   푸터 영역   */
+/*****************/
+footer{
+    width:100%;
+    height:100px;
+    background-color: rgb(233, 233, 233);
+}
+
+.f_menu {
+    float: none;
+    text-align: center;
+    margin-left: 0;
+}
+
+.f_menu>ul{
+    list-style: none;
+}
+
+.f_menu>ul>li{
+    float:right;
+    margin-top:20px;
+    margin-right:40px;
+}
+
+.f_txt>p {
+    float:left;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #666;
+    line-height: 22px;
+    text-align: center;
+}

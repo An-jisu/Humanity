@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Humanity</title>
+    <link rel="stylesheet" href = "css/style-2.css">
+</head>
+<body>
+    <div id = "container">
+        <!-- 상단 메뉴(헤더)-4개로 나눔 -->
+        <header>
+             <!-- 1. 로고 이미지 부분 -->
+            <a href = "main.html">
+                <img src = "images/logo.png" alt="휴머니티">
+            </a>
+            <!-- 2. 로고 humanity부분 -->
+            <div id = "logo">
+                <a href = "main.html">
+                    <h2>HUMANITY</h2>
+                </a>
+            </div>
+            <nav>
+                <!-- 3. 게시판 이름 부분 -->
+               <ul id="topMenu">
+                  <li>자유게시판</li>
+                  <li>공지게시판</li>
+                  <li>모집게시판</li>
+                  <li>취업 정보</li>
+                  <li>강의 후기</li>
+                  <li>중고 거래</li>
+                </ul>
+            </nav>
+             
+            <!-- 4. 오른쪽 상단 아이콘 부분 -->
+            <div id = "sub">
+                <a href = "search.html" class = "icon wearch">
+                    <img src = "images/search.png" alt="검색">
+                </a>
+                <a href = "message.html">
+                    <img src = "images/message.png" alt="쪽지">
+                </a>
+                <a href = "privacy_main.html">
+                    <img src = "images/privacy.png" alt="내 정보">
+                </a>
+            </div>
+        </header>
+    
+        <!-- 본문 -->
+        <div id = "contents">
+            <!--  나의 활동  -->
+            <section>
+                <h1>비밀번호 변경</h1>
+                <div class="input">
+                    <div class="label">
+                        <label>새 비밀번호</label>
+                        <p>영문, 숫자, 특문이 2종류 이상 조합된 8~20자</p>
+                    </div>
+                    <input type="password" maxlength="20" placeholder="새 비밀번호"> 
+                    <input type="password" maxlength="20" placeholder="새 비밀번호 확인"> 
+                </div> 
+                <div class="input">
+                    <div class="label">
+                        <label>현재 비밀번호</label>
+                    </div>
+                    <input type="password" maxlength="20" placeholder="현재 비밀번호">
+                </div>
+                <div class="rules">
+                    <p><strong>※ 혹시 타인에게 계정을 양도하려고 하시나요?</strong><br>
+                휴머니티 이용약관에서는 타인에게 계정 판매, 양도 및 대여 등을 엄격하게 금지하고 있습니다.<br>
+                모니터링 시스템에 의해 계정 양도가 적발될 경우 해당 계정은 영구 정지, 탈퇴 등의 조치가 가해지며, 계정 양도로 인해 사기, 불법 행위가 발생할 경우 관련법에 따라 
+                <span class="caution">법적 책임을 지게 될 수 있습니다.</span>
+                    </p>
+                    <input type="submit" value="비밀번호 변경">
+            </section>
+        </div>
+
+        <!-- 하단 정보(풋터) -->
+        <footer>
+            <div class="f_menu">
+                <ul>
+                    <li><a href=><b>개인정보처리방침</b></a></li>
+                    <li><a href=>커뮤니티 이용규칙</a></li>  
+                    
+                </ul>
+                <div class="f_txt">
+                    <p> <b>Creator|</b> Sangmyung University Department of Human Intelligence and Information Engineering<br>
+                        <b>Developers|</b> Park sunghyun, Park yujin, An jisu, Yun subin, Han hotaek
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>
