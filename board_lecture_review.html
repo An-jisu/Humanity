@@ -2,16 +2,143 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Humanity</title>
-    <style>
-        h1{
-            color:black;
-        }
-    </style>
+    <title>강의 후기</title>
+    <link rel="stylesheet" href="css/free_style.css">
 </head>
 <body>
-    <h1>강의 후기</h1>
-    <a href="post.html">글쓰기</a>
+    <div id = "container">
+        <!-- 상단 메뉴(헤더)-4개로 나눔 -->
+        <header>
+             <!-- 1. 로고 이미지 부분 -->
+            <a href = "humanity_main.html">
+                <img src = "images/logo.png" alt="휴머니티">
+            </a>
+            <!-- 2. 로고 humanity부분 -->
+            <div id = "logo">
+                <a href = "humanity_main.html">
+                    <h2>HUMANITY</h2>
+                </a>
+            </div>
+            <nav>
+                <!-- 3. 게시판 이름 부분 -->
+               <ul id="topMenu">
+                  <li>
+                    <a href="board_free.html">자유게시판</a>
+                  </li>
+                  <li>
+                    <a href="borad_notice.html">공지게시판</a>
+                  </li>
+                  <li>
+                    <a href="board_recruit.html">모집게시판</a>
+                  </li>
+                  <li>
+                    <a href="board_job_info.html">취업 정보</a>
+                  </li>
+                  <li>
+                    <a href="board_lecture_review.html">강의 후기</a>
+                  </li>
+                  <li>
+                    <a href="board_deal.html">중고거래</a>
+                  </li>
+                </ul>
+            </nav>
+             
+            <!-- 4. 오른쪽 상단 아이콘 부분 -->
+            <div id = "sub">
+                <input type="text" value=" search">
+                <a href = "privacy_main.html">
+                    <img src = "images/privacy.png" alt="내 정보">
+                </a>
+            </div>
+        </header>
+
+        <!-- 본문 -->
+        <div class="board_wrap">
+            <div class="board_title">
+                <strong>강의 후기</strong>
+            </div>
+            <div class="board_list_wrap">
+                <div class="board_list">
+                    <div class="top">
+                        <div class="num">번호</div>
+                        <div class="title">제목</div>
+                        <div class="writer">작성자</div>
+                        <div class="date">작성일</div>
+                        <div class="count">조회</div>
+                    </div>
+                    <div>
+                        <div class="num">5</div>
+                        <div class="title"><a href="#">글 제목이 들어갑니다.</a></div>
+                        <div class="writer">이름</div>
+                        <div class="date">2021.10.22</div>
+                        <div class="count">20</div>
+                    </div>
+                    <div>
+                        <div class="num">4</div>
+                        <div class="title"><a href="#">글 제목이 들어갑니다.</a></div>
+                        <div class="writer">이름</div>
+                        <div class="date">2021.10.22</div>
+                        <div class="count">20</div>
+                    </div>
+                    <div>
+                        <div class="num">3</div>
+                        <div class="title"><a href="#">글 제목이 들어갑니다.</a></div>
+                        <div class="writer">이름</div>
+                        <div class="date">2021.10.22</div>
+                        <div class="count">20</div>
+                    </div>
+                    <div>
+                        <div class="num">2</div>
+                        <div class="title"><a href="#">글 제목이 들어갑니다.</a></div>
+                        <div class="writer">이름</div>
+                        <div class="date">2021.10.22</div>
+                        <div class="count">20</div>
+                    </div>
+                    <div>
+                        <div class="num">1</div>
+                        <div class="title"><a href="#">글 제목이 들어갑니다.</a></div>
+                        <div class="writer">이름</div>
+                        <div class="date">2021.10.22</div>
+                        <div class="count">20</div>
+                    </div>
+                </div>
+                
+                <div class="board_page">
+                    <a href="#" class="bt first"><<</a>
+                    <a href="#" class="bt prev"><</a>
+                    <a href="#" class="num on">1</a>
+                    <a href="#" class="num">2</a>
+                    <a href="#" class="num">3</a>
+                    <a href="#" class="num">4</a>
+                    <a href="#" class="num">5</a>
+                    <a href="#" class="bt next">></a>
+                    <a href="#" class="bt last">>></a>
+                </div>
+                <div class="bt_wrap">
+                    <a href="post.html" class="on">글쓰기</a>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- 하단 정보(풋터) -->
+        <footer>
+            <div class="f_menu">
+                <ul>
+                    <li><a href=><b>개인정보처리방침</b></a></li>
+                    <li><a href=>커뮤니티 이용규칙</a></li>  
+                    
+                </ul>
+                <div class="f_txt">
+                    <p> <b>Creator|</b> Sangmyung University Department of Human Intelligence and Information Engineering<br>
+                        <b>Developers|</b> Park sunghyun, Park yujin, An jisu, Yun subin, Han hotaek
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
 </body>
 </html>

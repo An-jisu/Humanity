@@ -84,6 +84,12 @@ ul{
     margin-top: 10px;
 }
 
+#sub>input{
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    line-height: 70px;  /*세로 중앙 정렬*/
+}
 
 
 

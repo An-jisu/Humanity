@@ -4,14 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Humanity</title>
-    <style>
-        h1{
-            color:black;
-        }
-    </style>
+    <link rel="stylesheet" href = "css/login.css">
 </head>
 <body>
-    <h1>로그인 페이지</h1>
-    <a href="register.html">회원가입</a>
+    <div class="page-container">
+        <div class="login-form-container">
+            <div class="login-form-left-side">
+                <h1>HUMANITY</h2>
+            </div>
+            <div class="login-form-right-side">
+                <div class="login-input-container">
+                    <div class="login-input-wrap input-id">
+                        <input placeholder="ID" type="text">
+                    </div>
+                    <div class="login-input-wrap input-password">
+                        <input placeholder="Password"  type="password">
+                    </div>
+                </div>
+                <div class="login-btn-wrap">
+                    <button class="login-btn" onclick="location.href='humanity_main.html'">Login</button>
+                    <a href="find_id_pw.html" >ID/PW 찾기</a>
+                    <a href="register.html" >회원가입</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

@@ -28,41 +28,41 @@ header{
     }
     
     /*이미지 로고*/
-    header>a>img{
+header>a>img{
         float:left;
         width: 50px;
         height: 50px;
         margin-left: 30px;
         margin-top: 10px;
-    }
+}
     
-    /*글자 로고*/
-    #logo{
+/*글자 로고*/
+#logo{
         float:left;
         width: 160px;    
         height:70px;
         line-height:70px;
-    }
+}
     
-    #logo>a>h2{
+#logo>a>h2{
         font-family: 'Roboto', sans-serif;
         font-weight:700;
         font-size:25px;
         color:#222;
-    }
+}
     
     /*네비게이션*/
-    nav{
+nav{
         float:left;
         width:760px;
         height:70px;
-    }
+}
     
-    ul{
+ul{
         list-style:none;
-    }
+}
     
-    #topMenu > li {
+#topMenu > li {
         display: inline-block;
         margin: 0 25px;   /*게시판 이름 사이의 간격*/
         height: 70px;
@@ -72,20 +72,27 @@ header{
         font-size: 15px;
         font-weight: bold;  /*글자 굵게*/
         letter-spacing: -1px;
-    }
+}
     
-    #topMenu > li:hover {
+ #topMenu > li:hover {
         color:rgb(170, 217, 248);  /* 서브 메뉴 마우스 오버하면 색상 바뀜 */  
-    }
+}
     
     /*오른쪽 상단 이미지*/
-    #sub>a>img{
+#sub>a>img{
         display: inline-block;
         margin: 0 2px;   /*게시판 이름 사이의 간격*/
         width: 40px;
         height: 40px;
         margin-top: 10px;
-    }
+}
+
+#sub>input{
+        display: inline-block;
+        width: 120px;
+        height: 30px;
+        line-height: 70px;  /*세로 중앙 정렬*/
+}
 
 /* banner */ 
 #banner{height: 215px; width: 1220px; margin:0 auto;
